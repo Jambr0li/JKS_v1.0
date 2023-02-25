@@ -1,0 +1,23 @@
+.navbar-list {
+  position: absolute; // make it position: fixed if you want it to move with scroll
+  z-index: 1;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.nav-item {
+  margin: 0.5rem 5vw;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #0a014f;
+  font-size: 1.5rem;
+}

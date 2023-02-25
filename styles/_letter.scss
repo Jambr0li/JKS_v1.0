@@ -1,0 +1,16 @@
+@mixin flexCenter() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  @include flexCenter();
+}
+
+.letter-page {
+  @include flexCenter();
+  background-color: white;
+  height: 800px;
+  width: 618px;
+}
